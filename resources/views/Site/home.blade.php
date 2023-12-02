@@ -4,143 +4,240 @@
 
 @section('content')
 
-    <div class="row container">
+    <div class="row">
+        <div class="col s2 menu-lateral">
+            <span class="col s12 center text-white">Material Dashboard 2<br>Laravel</span>
 
-        <div class="col s12 center-align">
-            <p class="flow-text">Lorem ipsum dolor sit amet.</p>
-        </div>
-
-        <div class="col s12 divider"></div>
-
-        <p>&nbsp;</p>
+            <div class="border-3"></div>
 
 
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="{{ asset('Images/cards/card-1.jpg') }}" class="responsive-img materialboxed">
-                </div>
-                <div class="card-content">
-                    <span class="tittle">Lorem ipsum dolor sit amet.</span>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">Saiba mais</a>
+            <div class="col s12 examples">
+                <h6 class="white-color center">LARAVEL EXAMPLES</h6>
+
+                <div class="interative-user center col s7">
+                    <i class="fa-solid fa-user"></i>
                 </div>
             </div>
         </div>
 
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="{{ asset('Images/cards/card-2.jpg') }}" class="responsive-img materialboxed">
-                </div>
-                <div class="card-content">
-                    <span class="tittle">Lorem ipsum dolor sit amet.</span>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">Saiba mais</a>
+        <div class="col s10">
+
+            <p>&nbsp;</p>
+
+            <div class="col s3">
+                <div class="card">
+                    <div class="z-depth-2 card-image #000000 black">
+                        <i class="white-text fa-solid fa-money-bill"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="col s12">
+                            <p class="title right grey-text day">Today's Money</p>
+                        </div>
+
+                        <div class="col s12">
+                            <p class="right value">$53k</p>
+                        </div>
+
+                        <div class="border"></div>
+
+                        <div class="col s12 text-today">
+                            <p class="black-text day"><span class="green-text porcentgem">+55%</span>than lask week</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="{{ asset('Images/cards/card-3.jpg') }}" class="responsive-img materialboxed">
+            <div class="col s3">
+                <div class="card">
+                    <div class="z-depth-2 card-image #f06292 pink lighten-2">
+                        <i class="white-text fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="col s12">
+                            <p class="title right grey-text day">Today's Users</p>
+                        </div>
+
+                        <div class="col s12">
+                            <p class="right value">2,300</p>
+                        </div>
+
+                        <div class="border"></div>
+
+                        <div class="col s12 text-today">
+                            <p class="black-text day"><span class="green-text porcentgem">+3%</span>than lask month</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <span class="tittle">Lorem ipsum dolor sit amet.</span>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium.</p>
+            </div>
+
+            <div class="col s3">
+                <div class="card">
+                    <div class="z-depth-2 card-image #66bb6a green lighten-1">
+                        <i class="white-text fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="col s12">
+                            <p class="title right grey-text day">New Clients</p>
+                        </div>
+
+                        <div class="col s12">
+                            <p class="right value">3,462</p>
+                        </div>
+
+                        <div class="border"></div>
+
+                        <div class="col s12 text-today">
+                            <p class="black-text day"><span class="red-text porcentgem">-2%</span>than yesterday</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-action">
-                    <a href="#">Saiba mais</a>
+            </div>
+
+            <div class="col s3">
+                <div class="card">
+                    <div class="z-depth-2 card-image #2196f3 blue">
+                        <i class="white-text fa-solid fa-money-bill"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="col s12">
+                            <p class="title right grey-text day">Sales</p>
+                        </div>
+
+                        <div class="col s12">
+                            <p class="right value">$103,430</p>
+                        </div>
+
+                        <div class="border"></div>
+
+                        <div class="col s12 text-today">
+                            <p class="black-text day"><span class="green-text porcentgem">+5%</span>than yesterday</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+
+
+            <p>&nbsp;</p>
+
+            <div class="row">
+
+                <section class="col s12 espaço-grafico">
+                    <div class="col s4">
+                        <div class="card-medio-1 z-depth-2">
+                            <div class="card-grafico">
+                                <img src="{{ asset('Images/Graficos/grafico-1.png') }}"
+                                    class="responseive-img #e91e63 pink">
+                                <h6 class="black-text font-weight">Website Views</h6>
+                                <p class="grey-text">Last Campaing Perfomace</p>
+
+                                <div class="border-2"></div>
+
+                                <p class="update grey-text"><i class="relogio fa-regular fa-clock grey-text"></i> campaign
+                                    sent 2 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card-medio-2 z-depth-2">
+                            <div class="card-grafico">
+                                <img src="{{ asset('Images/Graficos/grafico-2.png') }}"
+                                    class="responseive-img #4caf50 green">
+                                <h6 class="black-text font-weight">Dayle Sales</h6>
+                                <p class="grey-text"><b>(+15)</b> increase in otday sales.</p>
+
+                                <div class="border-2"></div>
+
+                                <p class="update grey-text"><i class="relogio fa-regular fa-clock grey-text"></i> uptade 4
+                                    min ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card-medio-2 z-depth-2">
+                            <div class="card-grafico">
+                                <img src="{{ asset('Images/Graficos/grafico-3.png') }}"
+                                    class="responseive-img #000000 black">
+                                <h6 class="black-text font-weight">Completed Tasks</h6>
+                                <p class="grey-text">Last Campaing Perfomace</p>
+
+                                <div class="border-2"></div>
+
+                                <p class="update grey-text"><i class="relogio fa-regular fa-clock grey-text"></i> just
+                                    updated</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <p>&nbsp;</p>
+
+
+
+            <div class="col s12 projects">
+                <div class="col s8">
+                    <h6 class="left grey-text font-weight">Projects</h6>
+                </div>
+
+                <div class="col s12 menu-lef">
+                    <p class="text-negrito left black-text"><i class="icon-check fa-solid fa-check"></i>30 done</p>
+                    <i class="fa fa-ellipsis-v right tres-pontos" aria-hidden="true"></i>
+                    <p class="mes grey-text">this month</p>
+                </div>
+
+                <table class="responsive-table">
+                    <thead>
+                        <tr>
+                            <td class="black-text">COMPANES</td>
+                            <td class="black-text">MEMBERS</td>
+                            <td class="black-text">BUDGET</td>
+                            <td class="black-text">COMPLETION</td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class=" black-text">Material XD Version</td>
+                            <td></td>
+                            <td class="black-text">$0.87</td>
+                        </tr>
+                        <tr>
+                            <td class="black-text">Add Progress Track</td>
+                            <td></td>
+                            <td class="black-text">$3.76</td>
+                        </tr>
+                        <tr>
+                            <td class="black-text">Fix Platform Errors</td>
+                            <th></th>
+                            <td class="black-text">$7.00</td>
+                        </tr>
+                        <tr>
+                            <td class="black-text">Launch our Mobile App</td>
+                            <td></td>
+                            <td class="black-text">BUDGET</td>
+                            <td class="black-text">COMPLETION</td>
+                        </tr>
+                        <tr>
+                            <td class="black-text">Add the New Pricing Page/th>
+                            <td></td>
+                            <td class="black-text">BUDGET</td>
+                            <td class="black-text">COMPLETION</td>
+                        </tr>
+                        <tr>
+                            <td class="black-text">Redesign New Online Shop</td>
+                            <td></td>
+                            <td class="black-text">BUDGET</td>
+                            <td class="black-text">COMPLETION</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-
-    <p>&nbsp;</p>
-
-    <div class="row container">
-        <div class="col s12">
-            <div class="divider"></div>
-        </div>
-    </div>
-
-    <p>&nbsp;</p>
-
-    <div class="row container">
-        <section class="col s12">
-            <h1 class="flow-text light">Lorem ipsum dolor sit amet.</h1>
-
-            <p class="flow-text light justify">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex reiciendis delectus iure id eum eligendi animi
-                dolores odio rerum quas, quia natus magnam consequuntur maxime suscipit praesentium perspiciatis? Quam id
-                tempore temporibus eligendi iste unde neque fuga dicta cupiditate nam qui ab amet ratione laudantium, soluta
-                quos aspernatur voluptate fugiat.
-            </p>
-
-            <p class="flow-text justfify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi sequi esse ab est
-                ipsum
-                quidem totam, quia
-                minus doloribus reiciendis sed dicta illum harum cumque neque! Accusamus commodi velit quis?
-            </p>
-
-            <p>
-                <a href="#!" class="waves-effect waves-light btn btn-small blue waves">Saiba mais</a>
-                <a href="#!" class="waves-effect waves-light btn btn-small purple waves">Cadastre-se</a>
-            </p>
-        </section>
-    </div>
-
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="{{ asset('Images/parallax.jpg') }}" class="responsive-img">
-        </div>
-    </div>
-
-    <p>&nbsp;</p>
-
-    <div class="row container">
-
-        <div class="col s12 m6 l4 center-align">
-            <img src="{{ asset('Images/teams/team-1.jpg') }}" class="responseive-img circle">
-            <p class="flow-text">Bia</p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, aperiam.
-            </p>
-            <p>
-                <a href=""><i class="small fa-brands fa-facebook"></i></a>
-                <a href=""><i class="small fa-brands fa-instagram"></i></a>
-            </p>
-        </div>
-
-        <div class="col s12 m6 l4 center-align">
-            <img src="{{ asset('Images/teams/team-2.jpg') }}" class="responseive-img circle">
-            <p class="flow-text">Fernando</p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, aperiam.
-            </p>
-            <p>
-                <a href=""><i class="small fa-brands fa-facebook"></i></a>
-                <a href=""><i class="small fa-brands fa-instagram"></i></a>
-            </p>
-        </div>
-
-        <div class="col s12 m6 l4 center-align">
-            <img src="{{ asset('Images/teams/team-3.jpg') }}" class="responseive-img circle">
-            <p class="flow-text">Douglas</p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, aperiam.
-            </p>
-            <p>
-                <a href=""><i class="small fa-brands fa-facebook"></i></a>
-                <a href=""><i class="small fa-brands fa-instagram"></i></a>
-            </p>
-        </div>
-    </div>
-
-
 @endsection

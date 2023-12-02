@@ -1,7 +1,7 @@
 import './bootstrap';
 
 //JQuery
-$(document).ready(function () {
+$(document).ready(function (){
     $('.modal').modal();
     $('.sidenav').sidenav();
     $('.slider').slider();
@@ -11,8 +11,11 @@ $(document).ready(function () {
 
     //Configurações Jquery
     $('#tel').mask('(00)0.0000-0000');
+
 });
 
+
+//JQuery Mask
 /**
  * jquery.mask.js
  * @version: v1.14.16
