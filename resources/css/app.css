@@ -272,7 +272,7 @@ body {
     background-color: #fff;
     border-radius: 10px;
     width: 66.1% !important;
-    margin-right: 25px;
+    margin-right: 20px;
     height: 540px;
 
     @media screen and (max-width: 600px) {
@@ -500,15 +500,15 @@ h1 {
 
     .interative-user {
         margin-bottom: 10px;
+
+        & p{
+            white-space: nowrap !important;
+        }
     }
 
     .interative-user i {
         margin-right: 20px;
         font-size: 18px;
-
-        & p {
-            font-size: 13px !important;
-        }
     }
 
     .user {
@@ -669,6 +669,10 @@ h1 {
             width: 100% !important;
             margin-top: 25px;
         }
+
+        @media screen and (min-width: 600px) and (max-width: 1350px) {
+            width: 31.5% !important;
+        }
     }
 
     .template-lateral {
@@ -825,6 +829,7 @@ h1 {
     }
 
     .scroll-table {
+        overflow-x: scroll !important;
 
 
         @media screen and (max-width: 600px) {
